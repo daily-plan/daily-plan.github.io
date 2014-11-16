@@ -1,0 +1,21 @@
+/* CSS Document */
+.menu { 
+	width:500px; 
+}
+.has_children{
+	color:#000;
+	cursor:pointer;
+}
+.highlight{
+	color:#fff;
+	background : green;
+}
+
+.menu a{
+	color:#660033;
+	display : none;
+	float:left;
+	width:500px;
+}
+.margin-buttom20px{margin-bottom:20px;}
+

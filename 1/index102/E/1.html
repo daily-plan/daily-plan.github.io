@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>网站介绍</title>     
+    <link rel="stylesheet" href="../../../stylesheets/init.css">
+    <link rel="stylesheet" href="../../../stylesheets/common.css">
+	<script src="../../../javascripts/jquery-1.9.0.min.js"></script>
+    <script> 
+	/********************导航菜单显示与隐藏功能**********************************/
+		
+		$(document).ready(function(){
+		  $("#nav1").click(function(){
+			$("#nav1Z").slideToggle("fast");
+			$("#nav2Z,#nav3Z,#nav4Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav2").click(function(){
+			  $("#nav2Z").slideToggle("fast");
+			$("#nav1Z,#nav3Z,#nav4Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	 
+	  $(document).ready(function(){
+		  $("#nav3").click(function(){
+			  $("#nav3Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav4Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav4").click(function(){
+			  $("#nav4Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav3Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav5").click(function(){
+			  $("#nav5Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav3Z,#nav4Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav6").click(function(){
+			  $("#nav6Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav3Z,#nav4Z,#nav5Z").hide();
+		  });
+	  });
+	/********************结束**********************************/ 
+	/*********************自导航栏*************************************/ 
+	$(document).ready(function(){
+		 $(".nav1ZX").click(function(){
+			 $("#nav1Z").hide();
+		  });
+	  });	
+	  $(document).ready(function(){
+		 $(".nav2ZX").click(function(){
+			 $("#nav2Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav3ZX").click(function(){
+			 $("#nav3Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav4ZX").click(function(){
+			 $("#nav4Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav5ZX").click(function(){
+			 $("#nav5Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav6ZX").click(function(){
+			 $("#nav6Z").hide();
+		  });
+	  });
+	</script> 
+        <style type="text/css">
+    p{line-height:20px; }
+    </style>    
+   
+</head>
+<body>  
+	<div style="width:100%;margin:30px auto;font-size:30px;font-family:'微软雅黑' ">
+	    <div style="float:left;margin-top:-40px;"><img src="../../../images/logo.png" /> </div>
+       <div style="margin-left:45%;"> <a href="#" class="parentHeader">Hurry up</a></div>
+    </div>     
+	<ul id="breadcrumbs-one">
+		<li ><a href="javascript:void(0)"><span  id="nav1" >我的博客</span></a></li>
+		<li ><a href="javascript:void(0)"><span  id="nav2" >每日计划</span></a></li>
+		<li><a href="javascript:void(0)"><span  id="nav3" >个人论坛</span></a></li>
+<!--		<li><a href="javascript:void(0)"><span  id="nav4" >生活体验</span></a></li>
+-->	    <li><a href="javascript:void(0)"><span  id="nav5" >我的小店</span></a></li>
+        <li><a href="javascript:void(0)">奇幻浏览墙</a></li>
+		<li><a href="javascript:void(0)"><span  id="nav6" >关于我的Hurry up</span></a></li>
+	</ul>   
+    <ul  id="nav1Z" class="navL">
+        <li><a href="../../../archives/1.html" target=""><span class="nav1ZX" >网站动态</span></a></li>
+        <li><a href="../../Tag/index102.html" target=""><span class="nav1ZX" >网站推荐</span></a></li>
+        <li><a href="../../Tag/index101.html" target=""><span class="nav1ZX" >拖延症治疗室</span></a></li>
+    </ul>
+<!--	<ul  id="nav2Z" class="navL">
+        <li><a href="" target=""><span class="nav2ZX" >今日事今日毕</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >每日感悟</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >问卷调查</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >任务进程</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >往期回顾期回顾</span></a></li>        
+    </ul>
+-->    <ul  id="nav3Z" class="navL">
+        <li><a href="../../../3/1.html" target=""><span class="nav3ZX" >怎样迅速改变你的作息习惯</span></a></li>
+        <li><a href="../../../3/2.html" target=""><span class="nav3ZX" >毕业后你打算干吗?</span></a></li>
+        <li><a href="../../../3/3.html" target=""><span class="nav3ZX" >你的大学,一句话形容</span></a></li>
+        <li><a href="../../../3/4.html" target=""><span class="nav3ZX" >双十一你怎么过的</span></a></li>
+        <li><a href="../../../3/5.html" target=""><span class="nav3ZX" >讲几条你的生活小技巧</span></a></li>
+    </ul>
+    <ul  id="nav4Z" class="navL">
+        <li><a href="" target=""><span class="nav4ZX" >方特之行</span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" >泥土制作</span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" >数字油画</span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" ></span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" ></span></a></li>
+    </ul>
+<!--    <ul  id="nav5Z" class="navL">
+        <li><a href="" target=""><span class="nav5ZX" >泥土制作</span></a></li>
+        <li><a href="" target=""><span class="nav5ZX" >私人定制</span></a></li>
+        <li><a href="" target=""><span class="nav5ZX" ></span></a></li>        
+    </ul>
+-->  
+    <ul  id="nav6Z" class="navL">
+        <li><a href="../../../7/1.html" target=""><span class="nav6ZX" >网站介绍</span></a></li>
+        <li><a href="" target=""><span class="nav6ZX" ></span></a></li>
+        <li><a href="" target=""><span class="nav6X" ></span></a></li>
+        <li><a href="" target=""><span class="nav6ZX" ></span></a></li>        
+    </ul>
+
+<!--文章内容-->
+<div style="width:100%;margin:30px auto;font-family:'微软雅黑';background-color:#F0C964;">
+<p><strong>1.空穴来风</strong><span>：空穴是来风的条件，既能来风，必有空穴，传闻有一定根据。很多用来表示毫无根据，完全用反了。</span></p><p><strong>2.三人成虎</strong>：传言有虎的人很多，大家便相信了。多误解为团结合作力量大。</p><p><strong>3.美轮美奂</strong>：只能形容房屋高大美丽。不少人凡形容美好事物都用这个成语，错。</p><p><strong>4.炙手可热</strong>：形容人很有权势，含贬义。现在常被扩大使用范围，形容一切“吃香”的事物，完全背离其本义。</p><p><strong>5.侃侃而谈</strong>：“侃侃”本为刚直之意，谈得理直气壮才叫侃侃而谈。人们大多用此语形容聊天，属误用。</p><p><strong>6.首当其冲</strong>：首先受到攻击或遭受灾难，常被人误用为“首先接受任务，或首先应当先做某事”，代替“首先”。</p><p><strong>7.不瘟不火</strong>：指表演既不沉闷也不过火。常被人用来表示商品销售不够火爆，且写作“不温不火”。</p><p><strong>8.鼎力相助</strong>：只用于对方或他人，不可用于自己，否则太不谦虚。</p><p><strong>9.一言九鼎</strong>：说话有份量。不能表示守信用，也不能用于自己。</p><p><strong>10.首鼠两端</strong>：迟疑不决。常误解为言行前后不一致。</p><p><strong>11.溢美之词</strong>：过分赞美的言词。常误用于褒义场合。</p><p><strong>12.意气用事</strong>：凭感情办事，缺乏理智，不能用来表达“讲义气重感情”。</p><p><strong>13.蓬荜生辉</strong>：谦敬之辞。广告词用“让您的居室蓬筚生辉”，就很滑稽。</p><p><strong>14.不可收拾</strong>：无可挽救，不可救药。常有人在“一发而不可收”这句惯用语后加一“拾”字，变褒为贬。</p><p><strong>15.信笔涂鸦</strong>：随手乱画，不能用来表达“画得又快又好”。</p><p><strong>16.不负众望</strong>：没辜负大家的期望，褒义。</p><p><strong>17.不孚众望</strong>：未符合大家的期望，贬义，常和“不负众望”被混用。</p><p><strong>18.义无反顾</strong>：为正义而勇往直前。被用于毫不犹豫地做坏事，就错了。</p><p><strong>19.不可理喻</strong>：不能用道理使之明白，形容态度蛮横或愚昧无知。容易误解为不可理解。</p><p><strong>20.望其项背</strong>：可以赶上，只用否定形式。不少人用“只能望其项背”表示“赶不上”，错。</p><p><strong>21.差强人意</strong>：大体上使人满意。多误解为不能使人满意。</p><p><strong>22.抛砖引玉</strong>：自谦之辞，不能用于对方或第三方。</p><p><strong>23.风声鹤唳</strong>：惊慌疑惧，常与“草木皆兵”连用。有人用“杀得风声鹤唳”来形容战斗激烈，错。</p><p><strong>24.敬谢不敏</strong>：表示推辞做某事的婉辞。错用于拒绝别人的要求。</p><p><strong>25.人满为患</strong>：强调人多的坏处，贬义。错用于表示人很多的情景，如“柜台前人满为患”之类。</p><p><strong>26.鬼斧神工</strong>：建筑、雕塑等技艺精巧。常被误用来形容自然景物。</p><p><strong>27.始作俑者</strong>：首先干某件坏事的人。滥用于一切事物的倡导人。</p><p><strong>28.文不加点</strong>：写文章一气呵成，不须删改。不可理解为“不加标点”。</p><p><strong>29.侧目而视</strong>：不满而又惧怕地看着。常误解为“目光轻蔑地看”。</p><p><strong>30.良莠不齐</strong>：一群人中有好有坏，侧重于品质。不用于水平、成绩等。</p><p><strong>31.无所不至</strong>：什么坏事都干，与“无微不至”有天壤之别。</p><p><strong>32.明日黄花</strong>：过时的新闻报道或事物。不能写作“昨日黄花”。</p><p><strong>33.评头品足</strong>：比喻在小节上过分挑剔，与中性的评议不同。</p><p><strong>34.七月流火</strong>：指天气逐渐凉爽起来。常被误用来形容七月的天气十分炎热，实在是望文生义。</p><p><strong>35.置之度外</strong>：不把生死利害等放在心上，与“置之不理”不同。</p><p><strong>36.翻云覆雨</strong>：比喻反复无常或玩弄手段，不能表示气势宏伟。</p><p><strong>37.弹冠相庆</strong>：贬义，常被误解为中性的互相庆贺。</p><p><strong>38.期期艾艾</strong>：口吃，不理解为懦弱犹豫等。</p><p><strong>39.无可厚非</strong>：不必作过严厉的批评，与“无可非议”程度不同。</p><p><strong>40.不胫而走</strong>：消息传得很快，表示东西丢失用“不翼而飞”。</p><p><strong>41.身临其境</strong>：常误用为代替“设身处地”。</p><p><strong>42.茕茕孑立</strong>：孑然一身，处境孤单，无依无靠，指一生不指某时。</p><p><strong>43.耿耿于怀</strong>：形容心存怨恨。</p><p><strong>44.因人成事</strong>：依靠别人把事情办好，只能表贬义或自谦。</p><p><strong>45.耳提面命</strong>：表示长辈的谆谆教导，不用于同辈之间和贬义。</p><p><strong>46.耸人听闻</strong>：故意夸张使人震惊，强调主观目的。</p><p><strong>47.骇人听闻</strong>：多指社会上发生的坏事使人听了吃惊，强调客观效果。</p><p><strong>48.咬文嚼字</strong>：一般用于贬义，除非贬词褒用。</p><p><strong>49.处心积虑</strong>：贬义，褒义用“殚精竭虑”。</p><p><strong>50.火中取栗</strong>：比喻被人利用，替人冒险出力，自己却一无所得。</p><p><strong>51.忍俊不禁</strong>：忍不住笑。误用：与语境义重复，不能说“忍俊不禁地笑起来”。</p><p><strong>52.责无旁贷</strong>：自己的责任，不能推卸给别人。误用：与语境重复，如“责无旁贷的责任”</p><p><strong>53.参差不齐</strong>：长短高低大小水平不一致，不用于时间等。</p><p><strong>54.绘声绘色</strong>：形容描写生动逼真，常误用作代替”有声有色”。</p><p><strong>55.危言危行</strong>：讲正直的话，做正直的事。这里的“危”是正直，但常因为理解成“危险”而误用。</p><p><strong>56.不可思议</strong>：不可想象，不能理解，强调神秘奥妙。有时会与“不可理喻”误用。</p><p><strong>57.相敬如宾</strong>：常与举案齐眉连用，只用于夫妻之间，不能用在朋友等关系上。</p><p><strong>58.不可向迩</strong>：不能接近。</p><p><strong>59.不可终日</strong>：形容形势危急或心中惶恐。</p><p><strong>60.目无全牛</strong>：技艺十分纯熟。常误解为没有全局观念。</p><p><strong>61.石破天惊</strong>：比喻文章议论新奇惊人，常被误用形容惊人消息。</p><p><strong>62.如丧考妣</strong>：像死了父母一样，贬义。</p><p><strong>63.汗牛充栋</strong>：只形容藏书很多，不用于其他事物。</p><p><strong>64.叹为观止</strong>：主语是人，如果主语是物，要说“令人叹为观止”。</p><p><strong>65.赏心悦目</strong>：主语是人，如果主语是物，要说“令人赏心悦目。</p><p><strong>66.不可开交</strong>：无法摆脱或结束，前面应加“忙得”、“打得”等。</p><p><strong>67.振振有词</strong>：贬义，理由似乎很充分，其实是强词夺理。常被错用来代替“理直气壮”。</p><p><strong>68.无所不为</strong>：什么坏事都干，不能用于赞扬的语境。</p><p><strong>69.情不自禁</strong>：无法控制感情，常与“不由自主”混淆。</p><p><strong>70.息息相关</strong>：比喻关系密切。常与“休戚相关”误用。</p><p><strong>71.休戚相关</strong>：比喻彼此间祸福互相关连。</p><p><strong>72.休戚与共</strong>：同甘共苦。</p><p><strong>73.相濡以沫</strong>：患难中互相救助，而“相依为命”只有互相依靠的意思。</p><p><strong>74.改弦更张</strong>：比喻改革制度或变更方法，易和“改弦易辙”（比喻改变方法或态度）混用。</p><p><strong>75.左右逢源</strong>：既指处世圆滑，又指做事得心应手，不用于言谈。</p><p><strong>76.面目全非</strong>：事物的样子变得很厉害，贬义，指变得很糟。</p><p><strong>77.见异思迁</strong>：意志不坚定，喜爱不专一，不表示选择时犹豫不定。</p><p><strong>78.不足为训</strong>：不值得作为准则，与教训无关。</p><p><strong>79.不知所云</strong>：指说话人说得不好，而非听者不理解。</p><p><strong>80.不耻下问</strong>：不可用于比自己高明的人。</p><p><strong>81.不以为意</strong>：表示不重视，不认真对待，不放在心上。不能与“不以为然”混用。</p><p><strong>82.水落石出</strong>：表示事情的真相已经弄清，不表示追求正确答案或道理。</p><p><strong>83.望尘莫及</strong>：比喻远远地落后，与“鞭长莫及”不同。</p><p><strong>84.投桃报李</strong>：报答他人的好处，不表示报复。</p><p><strong>85.改头换面</strong>：只改形式，不换内容，贬义，不用于中性的改换样子。</p><p><strong>86.如履薄冰</strong>：强调主观心态之谨慎小心，而非客观情况之危急。</p><p><strong>87.光怪陆离</strong>：色彩纷繁，现象奇异，中性，不要误认为贬义。</p><p><strong>88.一蹴而就</strong>：一步就成功，不要误解为“一气呵成”。</p><p><strong>89.耳闻目睹</strong>：亲耳听到，亲眼看见，不能与“耳濡目染”混用。“耳濡目染”着眼于经常听到、看到，在很自然的情况下受到影响。“耳闻目睹”只指看到听到，不一定受到影响。</p><p><strong>90.万人空巷</strong>：形容庆祝、欢迎等盛况，“盛大的集会或新事物把许多的人都吸引出来了”，常被人误解为巷子里静悄悄的，空无一人。</p>
+</span>
+</div>
+<!--评论-->
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1983560"></script>
+<!-- UY END -->
+<!--尾部-->
+<hr/>
+<div  style="width:728px; margin:0 30% ;">制作时间2014年11月</div>
+<!--分享-->
+<div class="footer-banner" style="width:728px; margin:10px auto 0"></div>
+<script src="../../../javascripts/init.js"></script>
+</body>
+</html>

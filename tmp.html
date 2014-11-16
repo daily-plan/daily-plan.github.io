@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+-->
+<script src="javascripts/jquery-1.9.0.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $(".nav1").click(function(){
+    $(".nav2").slideToggle("slow");
+  });
+});
+</script>
+ 
+<style type="text/css"> 
+.nav2
+{   margin:0px;
+	width:5%;
+	height:100px;
+padding:0px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+
+display:none;
+}
+</style>
+</head>
+<body>
+ 
+<div class="nav1">Click to slide the nav2 down or up</div>
+<div class="nav2">
+    <ul>
+        <li>Helloworld!</li>
+        <li>Hello world!</li>
+        <li>Hello world!</li>
+        <li>Hello world!</li>
+        <li>Hello world!</li>
+    </ul>
+</div>
+
+</body>
+</html>	

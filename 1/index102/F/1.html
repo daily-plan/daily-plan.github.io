@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hurry up</title>     
+    <link rel="stylesheet" href="../../../stylesheets/init.css">
+    <link rel="stylesheet" href="../../../stylesheets/common.css">
+	<script src="../../../javascripts/jquery-1.9.0.min.js"></script>
+    <script> 
+	/********************导航菜单显示与隐藏功能**********************************/
+		
+		$(document).ready(function(){
+		  $("#nav1").click(function(){
+			$("#nav1Z").slideToggle("fast");
+			$("#nav2Z,#nav3Z,#nav4Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav2").click(function(){
+			  $("#nav2Z").slideToggle("fast");
+			$("#nav1Z,#nav3Z,#nav4Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	 
+	  $(document).ready(function(){
+		  $("#nav3").click(function(){
+			  $("#nav3Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav4Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav4").click(function(){
+			  $("#nav4Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav3Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav5").click(function(){
+			  $("#nav5Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav3Z,#nav4Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav6").click(function(){
+			  $("#nav6Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav3Z,#nav4Z,#nav5Z").hide();
+		  });
+	  });
+	/********************结束**********************************/ 
+	/*********************自导航栏*************************************/ 
+	$(document).ready(function(){
+		 $(".nav1ZX").click(function(){
+			 $("#nav1Z").hide();
+		  });
+	  });	
+	  $(document).ready(function(){
+		 $(".nav2ZX").click(function(){
+			 $("#nav2Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav3ZX").click(function(){
+			 $("#nav3Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav4ZX").click(function(){
+			 $("#nav4Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav5ZX").click(function(){
+			 $("#nav5Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav6ZX").click(function(){
+			 $("#nav6Z").hide();
+		  });
+	  });
+	</script>    
+    <style type="text/css">
+	/*em是相对单位，2em即现在一个字大小的两倍*/
+    p{text-indent: 2em; }
+    </style>    
+</head>
+<body>  
+	<div style="width:100%;margin:30px auto;font-size:30px;font-family:'微软雅黑' ">
+      	<div style="float:left;margin-top:-40px;"><img src="../../../images/logo.png" /> </div>
+	   <div style="margin-left:45%;"> <a href="#" class="parentHeader">Hurry up</a></div>
+    </div>     
+	<ul id="breadcrumbs-one">
+		<li ><a href="javascript:void(0)"><span  id="nav1" >我的博客</span></a></li>
+		<li ><a href="javascript:void(0)"><span  id="nav2" >每日计划</span></a></li>
+		<li><a href="javascript:void(0)"><span  id="nav3" >个人论坛</span></a></li>
+<!--		<li><a href="javascript:void(0)"><span  id="nav4" >生活体验</span></a></li>
+-->	    <li><a href="javascript:void(0)"><span  id="nav5" >我的小店</span></a></li>
+        <li><a href="javascript:void(0)">奇幻浏览墙</a></li>
+		<li><a href="javascript:void(0)"><span  id="nav6" >关于我的Hurry up</span></a></li>
+	</ul>   
+    <ul  id="nav1Z" class="navL">
+        <li><a href="../../../archives/1.html" target=""><span class="nav1ZX" >网站动态</span></a></li>
+        <li><a href="../../Tag/index102.html" target=""><span class="nav1ZX" >网站推荐</span></a></li>
+        <li><a href="../../Tag/index101.html" target=""><span class="nav1ZX" >拖延症治疗室</span></a></li>
+    </ul>
+	<!--<ul  id="nav2Z" class="navL">
+        <li><a href="" target=""><span class="nav2ZX" >今日事今日毕</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >每日感悟</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >问卷调查</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >任务进程</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >往期回顾期回顾</span></a></li>        
+    </ul>-->
+    <ul  id="nav3Z" class="navL">
+        <li><a href="../../../3/1.html" target=""><span class="nav3ZX" >怎样迅速改变你的作息习惯</span></a></li>
+        <li><a href="../../../3/2.html" target=""><span class="nav3ZX" >毕业后你打算干吗?</span></a></li>
+        <li><a href="../../../3/3.html" target=""><span class="nav3ZX" >你的大学,一句话形容</span></a></li>
+        <li><a href="../../../3/4.html" target=""><span class="nav3ZX" >双十一你怎么过的</span></a></li>
+        <li><a href="../../../3/5.html" target=""><span class="nav3ZX" >讲几条你的生活小技巧</span></a></li>
+    </ul>
+    <ul  id="nav4Z" class="navL">
+        <li><a href="" target=""><span class="nav4ZX" >方特之行</span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" >泥土制作</span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" >数字油画</span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" ></span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" ></span></a></li>
+    </ul>
+<!--    <ul  id="nav5Z" class="navL">
+        <li><a href="" target=""><span class="nav5ZX" >泥土制作</span></a></li>
+        <li><a href="" target=""><span class="nav5ZX" >私人定制</span></a></li>
+        <li><a href="" target=""><span class="nav5ZX" ></span></a></li>        
+    </ul>
+-->  
+    <ul  id="nav6Z" class="navL">
+        <li><a href="../../../7/1.html" target=""><span class="nav6ZX" >网站介绍</span></a></li>
+        <li><a href="" target=""><span class="nav6ZX" ></span></a></li>
+        <li><a href="" target=""><span class="nav6X" ></span></a></li>
+        <li><a href="" target=""><span class="nav6ZX" ></span></a></li>        
+    </ul>
+
+									<!--文章内容-->
+<div style=" border:0px solid ;width:90%;height:auto; padding:0px; margin:10px auto;;">
+<p>
+金融是人类文明的推动者</p>
+<p>
+如果没有分工，人类恐怕至今还徘徊在刀耕火种的蒙昧时代。所以，亚当.斯密（Adam Smith）的伟大著作《国民财富的性质和原因的研究》（An Inquiry into the Nature and Causes of the Wealth of Nations，即《国富论》（The Wealth of Nations）），第一部分，写的就是分工的原理，他充分肯定分工对劳动生产率增进的贡献。</p>
+<p>
+但是，没有货币的出现，分工绝无可能。因为分工意味着交换的必然，而交换的成功，如果不以货币居间，而是直接的物物交换，则交换成功只能凭运气。货币使得交换润滑、顺畅，分工因此得以扩大，生产效率和技术发明得以加快出现。</p>
+<p>
+很多东西，司空见惯，就不觉得它们的重要。如空气、水和阳光，以及亲人的关爱，就常常被忽略，但它们的重要性无以复加。货币作为计价单位的作用，就是这样润物细无声的。如果不以货币计价，每种商品的“价格”，就要用与每种其他商品的交换比例来表示，随着商品数量的增多，价格将多得数不清，交易没法达成。货币让每种商品就只有一个价格，交换就简便多了。</p>
+<p>
+再比如保险，如果没有保险，个人和家庭的突然变故，无论天灾还是人祸，都可能造成家破人亡的惨剧。但有了保险，让一个大的人群，分担个人和家庭的损失，可以在相当大程度上，减轻悲剧的痛楚，减少社会的震荡，社会可如常向前。保险是很积德的事，不是吗？</p>
+<p>
+比如，期货市场，它的最初功能，就是稳定生产者的成本。没有期货市场来锁定生产的成本，生产就只能时断时续，社会生活就安定不下来。有了期货市场，生产者就能专注于生产本身，把成本变动的风险交给金融市场分散，这难道不是为人民服务？</p>
+<p>
+人人都知道大学的重要，几百年来，大学是人类文明主要的衣钵传承者，以及新知识、新技术和新文明的主要策源地，但是正如宗教场所需要捐献才能生存一样，大学也要源源不断的巨大的资金支撑。</p>
+<p>
+美国的一流大学，包括哈佛（Harvard）大学、耶鲁（Yale）大学、麻省理工学院（MIT）等，都有基金会，拥有可观的金融资产，并聘请金融专家打理。没有高薪，大师和大牌教授，怎么会屈尊来这些私立大学传道授业，安贫乐道那是旧黄历了。没有资金投入，哪来气派的大楼，那么多优秀学生，怎么能享受到世界上最好的高等教育？大经济学家凯恩斯（Keynes），就曾是剑桥大学的基金会的工作人员。</p>
+<p>
+很多人总是以为，只有大力流大汗的劳动和事业，才有价值。比如种地、比如打工、比如制造业，总之是实实在在的东西才好。而金融这种虚拟的产业，并不创造价值。这是一种严重的误会。</p>
+<p>
+我常常说，勤奋工作，有时是为了逃避更艰苦的脑力劳动，乃是一种真正的懒惰。这世界没有纯粹的实实在在的产业。即使种地，也需要种子、农药、化肥、耕作技术、土壤改良，这些都不是靠“汗滴禾下土”，就能自己跑出来的，都要靠科学。</p>
+<p>
+单纯地制造一件东西，非常容易。中国现在就是全球制造的中心。但是，制造什么、如何制造？却不是制造者说了算。苹果手（iPhone，），虽然多在中国制造，但不过是组装罢了。其研发、设计，都不在中国，主要的利润，也都不在中国，这是因为制造太简单，流水线的工人，重复几个动作就是了，我们会，别人也会，比如墨西哥人、越南人、巴西人，但研发，却是少数人才能做的。苹果手机是天才的，划时代的产品。</p>
+<p>
+单单出大力、流大汗，简繁重复的体力操作，是不能开创新世界的。能开创新世界的劳动，都是表面看起来很轻松的科学家的工作。而科学的背后是投资。比如新产品、新技术的研究，是要花大价钱的。谁敢把钱花在听起来不靠谱的，成功的可能性不大的“天方夜谭”，比如乔布斯（Steven Jobs）关于iPhone的设想上？只喜欢实实在在的人，怎么会舍得投资这些古怪的想法。但有人就敢，这就是风险投资（venture capital）家们。
+</p>
+<p>
+美国的硅谷（Silicon Valley）孕育了众多世界一流的高科技企业，苹果、英特尔、惠普、Facebook、Google、Oracle 、Cisco等，有了他们，今日人类的生活方式才迥然不同。但这些领袖级企业背后，都有风险投资的支持。</p>
+<p>
+这一点，凯恩斯早就精辟地论证过，他说经济的繁荣，不是生产（供给）决定，而是需求决定的，而需求，关键是投资需求。没有银行和金融市场，投资会受到极大的抑制。其实，社会事业的繁荣如电影业，又何尝不是如此呢？好莱坞大片（Hollywood blockbuster）人人爱，但那可是钱堆出来的！
+<p>金融是一种制度</p>
+<p>
+无论是过去的铸币，还是后来的纸币和电子货币，都不是“真东西”，本身并无多少价值，却能撬动和替代比自己大得多的那些“真东西”。是因为货币让人信任。而信任的基础，是制度的力量。</p>
+<p>
+交换源于人们内心的需要，而货币的实质，不过一种过渡的手段，一种润滑剂，一种观念上的东西，所以，不见得非用真东西。于是，政府以其强制力，规定人们必须接受，因此，纸币就是一种制度安排。</p>
+<p>
+银行也是一种制度，现代商业银行，不但是存贷款的机构，还通过部分准备金制度，在中央银行的诱导下，创造出新的、大量的货币。一个经济中的货币，主要并不是印刷出来，而是这样凭空产生的。这表面上是变戏法，但这种戏法，对人们福利的增进，却是实实在在的。因为金融学会告诉你，有时仅仅是货币多一点，你的生活就会真的好好一点，神奇吧。</p>
+<p>
+多数人有存款，但也有人贷款，比如住房抵押贷款。去银行贷款的人，是明智的。即使是你最好的朋友，亲兄妹，愿意借给你几十万块钱，让你分几十年还清吗？恐怕不能，因为借钱，多少朋友、亲人反目成仇。但银行愿意借给你，让你慢慢还！抵押，即是一种互相激励制约的制度。
+金融的本来含义，是资金的融通即流动。因为自打货币出现，并作为财富的主要保有形式之后，就有了资金的盈余者（潜在供给者）和赤字者（潜在需求者）。有钱的人，不一定善于赚钱，而善于发现赚钱机会的人，不见得有钱。没有银行，资金的需求者和供给者，就是瞎子摸象地互相寻找，一辈子也不会认识。一代代人的生命和渴望，就在等待中消失了。</p>
+<p>
+银行是梦想的实现机构，是仙女的魔棒。有了银行，出借者和借款人，就都不用再东奔西走，找到银行，就可以了。银行促进了资金盈余者和赤字者的沟通，实现了“金融”。有多少人事业成功，从无名小卒财富名流，就是因为有了这个魔棒。</p>
+<p>
+利率也是一种制度。资金的需求者和供给者，进行的是现在和未来之间的现金流交换，如何均衡供求或者让双方都如愿？靠利息。利息的作用是压抑需求而鼓励供给，利率上升则需求下降，供给上升；利率下降则需求增加供给减少。所以，必然存在一个双方都满意的利率，也就是均衡利率，这样就平衡了借贷关系。</p>
+<p>
+股票市场也是一种制度安排，投资者的入股资金，不能退。这怎么让人接受？投资者可以参加股东大会，分得股息和红利，能在二级市场转让股份，上市公司必须按时披露信息。靠这些，来换取股东长期的资金支持，然后，上市公司才能做具有长远打算的事业。</p>
+
+金融制度，何其重要！
+
+</div>
+<!--文章内容-->
+<!--评论-->
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1983560"></script>
+<!-- UY END -->
+<!--尾部-->
+<hr/>
+<div  style="width:728px; margin:0 30% ;">&copy; Copyright 2014 by ZYL, Designed by ZYL制作时间2014年11月</div>
+<!--分享-->
+<div class="footer-banner" style="width:728px; margin:10px auto 0"></div>
+<script src="../../../javascripts/init.js"></script>
+</body>
+</html>

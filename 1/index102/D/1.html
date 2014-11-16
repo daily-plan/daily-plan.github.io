@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>安全乘坐地铁</title>     
+    <link rel="stylesheet" href="../../../stylesheets/init.css">
+    <link rel="stylesheet" href="../../../stylesheets/common.css">
+	<script src="../../../javascripts/jquery-1.9.0.min.js"></script>
+    <script> 
+	/********************导航菜单显示与隐藏功能**********************************/
+		
+		$(document).ready(function(){
+		  $("#nav1").click(function(){
+			$("#nav1Z").slideToggle("fast");
+			$("#nav2Z,#nav3Z,#nav4Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav2").click(function(){
+			  $("#nav2Z").slideToggle("fast");
+			$("#nav1Z,#nav3Z,#nav4Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	 
+	  $(document).ready(function(){
+		  $("#nav3").click(function(){
+			  $("#nav3Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav4Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav4").click(function(){
+			  $("#nav4Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav3Z,#nav5Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav5").click(function(){
+			  $("#nav5Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav3Z,#nav4Z,#nav6Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		  $("#nav6").click(function(){
+			  $("#nav6Z").slideToggle("fast");
+			$("#nav1Z,#nav2Z,#nav3Z,#nav4Z,#nav5Z").hide();
+		  });
+	  });
+	/********************结束**********************************/ 
+	/*********************自导航栏*************************************/ 
+	$(document).ready(function(){
+		 $(".nav1ZX").click(function(){
+			 $("#nav1Z").hide();
+		  });
+	  });	
+	  $(document).ready(function(){
+		 $(".nav2ZX").click(function(){
+			 $("#nav2Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav3ZX").click(function(){
+			 $("#nav3Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav4ZX").click(function(){
+			 $("#nav4Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav5ZX").click(function(){
+			 $("#nav5Z").hide();
+		  });
+	  });
+	  $(document).ready(function(){
+		 $(".nav6ZX").click(function(){
+			 $("#nav6Z").hide();
+		  });
+	  });
+	</script>    
+    <style type="text/css">
+	/*em是相对单位，2em即现在一个字大小的两倍*/
+    p{text-indent: 2em; }
+    </style>    
+</head>
+<body>  
+	<div style="width:100%;margin:30px auto;font-size:30px;font-family:'微软雅黑' ">
+      	<div style="float:left;margin-top:-40px;"><img src="../../../images/logo.png" /> </div>
+	   <div style="margin-left:45%;"> <a href="#" class="parentHeader">Hurry up</a></div>
+    </div>     
+	<ul id="breadcrumbs-one">
+		<li ><a href="javascript:void(0)"><span  id="nav1" >我的博客</span></a></li>
+		<li ><a href="javascript:void(0)"><span  id="nav2" >每日计划</span></a></li>
+		<li><a href="javascript:void(0)"><span  id="nav3" >个人论坛</span></a></li>
+<!--		<li><a href="javascript:void(0)"><span  id="nav4" >生活体验</span></a></li>
+-->	    <li><a href="javascript:void(0)"><span  id="nav5" >我的小店</span></a></li>
+        <li><a href="javascript:void(0)">奇幻浏览墙</a></li>
+		<li><a href="javascript:void(0)"><span  id="nav6" >关于我的Hurry up</span></a></li>
+	</ul>   
+    <ul  id="nav1Z" class="navL">
+        <li><a href="../../../archives/1.html" target=""><span class="nav1ZX" >网站动态</span></a></li>
+        <li><a href="../../Tag/index102.html" target=""><span class="nav1ZX" >网站推荐</span></a></li>
+        <li><a href="../../Tag/index101.html" target=""><span class="nav1ZX" >拖延症治疗室</span></a></li>
+		
+    </ul>
+<!--	<ul  id="nav2Z" class="navL">
+        <li><a href="" target=""><span class="nav2ZX" >今日事今日毕</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >每日感悟</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >问卷调查</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >任务进程</span></a></li>
+        <li><a href="" target=""><span class="nav2ZX" >往期回顾期回顾</span></a></li>        
+    </ul>
+-->    <ul  id="nav3Z" class="navL">
+        <li><a href="../../../3/1.html" target=""><span class="nav3ZX" >怎样迅速改变你的作息习惯</span></a></li>
+        <li><a href="../../../3/2.html" target=""><span class="nav3ZX" >毕业后你打算干吗?</span></a></li>
+        <li><a href="../../../3/3.html" target=""><span class="nav3ZX" >你的大学,一句话形容</span></a></li>
+        <li><a href="../../../3/4.html" target=""><span class="nav3ZX" >双十一你怎么过的</span></a></li>
+        <li><a href="../../../3/5.html" target=""><span class="nav3ZX" >讲几条你的生活小技巧</span></a></li>
+    </ul>
+    <ul  id="nav4Z" class="navL">
+        <li><a href="" target=""><span class="nav4ZX" >方特之行</span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" >泥土制作</span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" >数字油画</span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" ></span></a></li>
+        <li><a href="" target=""><span class="nav4ZX" ></span></a></li>
+    </ul>
+<!--    <ul  id="nav5Z" class="navL">
+        <li><a href="" target=""><span class="nav5ZX" >泥土制作</span></a></li>
+        <li><a href="" target=""><span class="nav5ZX" >私人定制</span></a></li>
+        <li><a href="" target=""><span class="nav5ZX" ></span></a></li>        
+    </ul>
+-->  
+    <ul  id="nav6Z" class="navL">
+        <li><a href="../../../7/1.html" target=""><span class="nav6ZX" >网站介绍</span></a></li>
+        <li><a href="" target=""><span class="nav6ZX" ></span></a></li>
+        <li><a href="" target=""><span class="nav6X" ></span></a></li>
+        <li><a href="" target=""><span class="nav6ZX" ></span></a></li>        
+    </ul>
+
+									<!--文章内容-->
+<div style=" border:0px solid ;width:90%;height:auto; padding:0px; margin:10px auto;text-align:center;">
+<h1>地铁里遭遇突发状况怎么办？</h1>
+<p style="text-align:left">前晚，北京地铁5号线上一女性乘客卡在地铁屏蔽门和车门之间，列车启动后掉下站台，后经抢救无效死亡。原因尚在调查，但安全乘车不容忽视！被夹在安全门和车门之间该如何自救？遇到恐怖袭击怎么办？不慎掉下站台后可以躺在铁轨中间吗？</p>
+    <div class="margin-top16px"><img src="http://ww2.sinaimg.cn/large/a716fd45gw1em3p0n6tepj20c80w2jzn.jpg"/></div>
+    <div class="margin-top16px"><img src="http://ww3.sinaimg.cn/large/a716fd45gw1em3p0nrkfcj20c80j443n.jpg"/></div>
+    <div class="margin-top16px"><img src="http://ww2.sinaimg.cn/large/a716fd45gw1em3p0olqykj20c80n944u.jpg"/></div>
+    <div class="margin-top16px"><img src="http://ww1.sinaimg.cn/large/a716fd45gw1em3p0pd9axj20c80eyaen.jpg"/></div>
+    <div class="margin-top16px"><img src="http://ww4.sinaimg.cn/large/a716fd45gw1em3p0ptn6qj20c80jtq93.jpg"/></div>
+    <div class="margin-top16px"><img src="http://ww2.sinaimg.cn/large/a716fd45gw1em3p0qhei0j20c80dnjvd.jpg"/></div>
+    <div class="margin-top16px"><img src="http://ww1.sinaimg.cn/large/a716fd45gw1em3p0qos0nj20c80f3aee.jpg"/></div>
+    <div class="margin-top16px"><img src="http://ww1.sinaimg.cn/large/a716fd45gw1em3p0r6nsuj20c80c8jv3.jpg"/></div>
+    <div class="margin-top16px"><img src="http://ww1.sinaimg.cn/large/a716fd45gw1em3p0rvlawj20c811y47y.jpg"/></div>
+    <div class="margin-top16px"><img src="http://ww1.sinaimg.cn/large/a716fd45gw1em3p0rvlawj20c811y47y.jpg"/></div>
+        <span>澳大利亚珀斯火车站，人们在看到乘客被卡在月台缝里之后……</span>
+    <div class="margin-top16px"><a href="http://weibo.com/p/1005055168815544/weibo?pids=Pl_Official_LeftProfileFeed__28&profile_ftype=1&is_pic=1#_0">
+    <img src="http://ww4.sinaimg.cn/thumbnail/005DNP2Egw1emde5ljvvbg30aj065x6p.gif" width="400px" height="300px"/>
+    </a>
+    </div>
+    
+</div>
+<!--文章内容-->
+<!--评论-->
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=1983560"></script>
+<!-- UY END -->
+<!--尾部-->
+<hr/>
+<div  style="width:728px; margin:0 30% ;">&copy; Copyright 2014 by ZYL, Designed by ZYL制作时间2014年11月</div>
+<!--分享-->
+<div class="footer-banner" style="width:728px; margin:10px auto 0"></div>
+<script src="../../../javascripts/init.js"></script>
+</body>
+</html>
